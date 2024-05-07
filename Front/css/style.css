@@ -1,8 +1,43 @@
-#page-top {
-    background-color: rgb(80, 79, 79);
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
+body {
+    margin: 0;
+	padding: 0;
+	border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+main {
+    padding: 20px;
+    width: 100%;
+    background-color: rgb(253, 236, 212);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+h1 {
+    position: relative;
+    
+}
+footer {
+    background-color: rgb(31, 30, 30);
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+header {    
+    background-color: rgb(31, 30, 30);
     height: 50px;
-  }
+    width: 100%;
+}
+a {
+    color: aliceblue;
+    text-decoration: none;
+    justify-content: space-between;
+    padding: 10px;
+}
